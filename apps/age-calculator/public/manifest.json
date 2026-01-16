@@ -1,20 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/kintone/js-sdk/%40kintone/plugin-manifest-validator%4010.2.0/packages/plugin-manifest-validator/manifest-schema.json",
   "manifest_version": 1,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "APP",
   "icon": "image/icon.png",
   "name": {
-    "en": "kintone-plugin-template",
-    "ja": "kintoneプラグイン開発テンプレート"
+    "en": "Age Calculator",
+    "ja": "年齢計算プラグイン"
   },
   "description": {
-    "en": "Template for kintone plugin",
-    "ja": "kintoneプラグインの開発テンプレートです。"
+    "en": "A kintone plugin that automatically calculates age from a birth date field and populates a destination field.",
+    "ja": "誕生日フィールドから現在の年齢を自動計算し、指定したフィールドに自動入力するプラグインです。"
   },
   "homepage_url": {
-    "en": "https://github.com/HaruCraftz/kintone-plugin-simple-template",
-    "ja": "https://github.com/HaruCraftz/kintone-plugin-simple-template"
+    "en": "https://github.com/HaruCraftz/kintone-plugins/tree/main/apps/age-calculator",
+    "ja": "https://github.com/HaruCraftz/kintone-plugins/tree/main/apps/age-calculator"
   },
   "desktop": {
     "js": ["js/desktop.js"],
