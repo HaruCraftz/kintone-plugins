@@ -9,7 +9,7 @@ type UseExportConfigProps<T> = {
 
 export const useExportConfig = <T extends Record<string, unknown>>({
   message = '設定情報をエクスポートしました',
-}: UseExportConfigProps<T>) => {
+}: UseExportConfigProps<T> = {}) => {
   const { getValues } = useFormContext<T>();
   const { enqueueSnackbar } = useSnackbar();
 
